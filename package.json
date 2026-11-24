@@ -1,0 +1,31 @@
+{
+  "name": "roadmind-india",
+  "version": "1.0.0",
+  "description": "Real-time road hazard intelligence network using vehicle telemetry, sensor data, camera detections and Condense streaming pipelines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Attrivishal/RoadMind-India.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Attrivishal/RoadMind-India/issues"
+  },
+  "homepage": "https://github.com/Attrivishal/RoadMind-India#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
